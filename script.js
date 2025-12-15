@@ -6,7 +6,8 @@ document.addEventListener("change", function (e) {
 window.addEventListener("click", function (e) {
     console.log("Preference Center clicked:", event.composedPath());
     const realButton = event.composedPath().find(el => el.tagName === 'BUTTON');
-    console.log(realButton);
+    console.log(realButton.outerHTML);
+    console.log(realButton.innerHTML);
     /*if(realButton && realButton.include('Unsubscribe')){
         console.log('Completedddd...................');
     }*/
