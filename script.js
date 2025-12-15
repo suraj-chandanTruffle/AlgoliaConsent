@@ -2,7 +2,7 @@ console.log('Hello World!');
 document.addEventListener("change", function (e) {
     console.log("Preference Center updated:", e);
 });
-document.addEventListener("commit", function () {
+document.addEventListener("commit", (e) => {
     console.log("Preference Center commited:");
 });
 document.addEventListener("select", function (e) {
@@ -20,10 +20,10 @@ document.addEventListener("formfieldchange", function (e) {
 document.addEventListener("endreached", function (e) {
     console.log("Preference Center endreached:", e);
 });
-document.addEventListener("focus", function () {
+document.addEventListener("focus", (e) => {
     console.log("Preference Center focus:");
 });
-document.addEventListener("blur", function () {
+document.addEventListener("blur", (e) => {
     console.log("Preference Center blur:");
 });
 document.addEventListener("textchange", function (e) {
@@ -32,7 +32,7 @@ document.addEventListener("textchange", function (e) {
 document.addEventListener("invalid", function (e) {
     console.log("Preference Center invalid:", e);
 });
-document.addEventListener("open", function () {
+document.addEventListener("open", (e) => {
     console.log("Preference Center open:");
 });
 document.addEventListener("updatecolor", function (e) {
@@ -42,6 +42,9 @@ document.addEventListener("updateselectedcolor", function (e) {
     console.log("Preference Center updateselectedcolor:");
 });
 document.addEventListener("textinput", function (e) {
+    console.log("Preference Center textinput:", e);
+});
+document.addEventListener("input", function (e) {
     console.log("Preference Center textinput:", e);
 });
 document.addEventListener("click", function (e) {
