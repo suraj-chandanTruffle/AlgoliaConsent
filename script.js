@@ -8,7 +8,8 @@ window.addEventListener("click", function (e) {
     const realButton = event.composedPath().find(el => el.tagName === 'BUTTON');
     if(realButton && realButton.innerHTML == 'Unsubscribe'){
         console.log("Unsubscribe");
-        window.location.replace('https://go.algolia.com/unsubscribeconfirmation.html');
+        window.location.href = 'https://go.algolia.com/unsubscribeconfirmation.html';
+        //window.location.replace('https://go.algolia.com/unsubscribeconfirmation.html');
         window.location.reload();
         //window.open('https://go.algolia.com/unsubscribeconfirmation.html', '_blank');
     }
