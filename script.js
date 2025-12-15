@@ -51,7 +51,7 @@ window.addEventListener("input", function (e) {
 window.addEventListener("click", function (e) {
     console.log("Preference Center click:", e);
     console.log("Preference Center clicked:", e.bubbles);
-    console.log("Preference Center clicked:", e.target);
+    console.log("Preference Center clicked:", e.PointerEvent);
     console.log("Preference Center clicked:", e.currentTarget);
 });
 window.addEventListener("clickEvent", function (e) {
