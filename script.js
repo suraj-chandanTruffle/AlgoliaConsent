@@ -24,7 +24,7 @@ document.addEventListener("focus", function () {
     console.log("Preference Center focus:");
 });
 document.addEventListener("blur", function () {
-    console.log("Preference Center blur:"2);
+    console.log("Preference Center blur:");
 });
 document.addEventListener("textchange", function (e) {
     console.log("Preference Center textchange:", e);
