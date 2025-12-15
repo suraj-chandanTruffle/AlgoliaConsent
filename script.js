@@ -35,13 +35,13 @@ document.addEventListener("invalid", function (e) {
 document.addEventListener("open", (e) => {
     console.log("Preference Center open:");
 });
-document.addEventListener("updatecolor", function (e) {
-    console.log("Preference Center updatecolor:");
+document.addEventListener("formfieldchange", function (e) {
+    console.log("Preference Center formfieldchange:");
 });
-document.addEventListener("updateselectedcolor", function (e) {
-    console.log("Preference Center updateselectedcolor:");
+document.addEventListener("emailTextInput", function (e) {
+    console.log("Preference Center emailTextInput:");
 });
-document.addEventListener("textinput", function (e) {
+document.addEventListener("TextInput", function (e) {
     console.log("Preference Center textinput:", e);
 });
 document.addEventListener("input", function (e) {
