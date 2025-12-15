@@ -2,52 +2,49 @@ console.log('Hello World!');
 document.addEventListener("change", function (e) {
     console.log("Preference Center updated:", e);
 });
-document.addEventListener("commit", (e) => {
+window.addEventListener("commit", (e) => {
     console.log("Preference Center commited:");
 });
-document.addEventListener("select", function (e) {
+window.addEventListener("select", function (e) {
     console.log("Preference Center selected:", e);
 });
-document.addEventListener("privatebuttonregister", function (e) {
+window.addEventListener("privatebuttonregister", function (e) {
     console.log("Preference Center privatebuttonregistered:", e);
 });
-document.addEventListener("GET_LINK_INFO_EVENT", function (e) {
+window.addEventListener("GET_LINK_INFO_EVENT", function (e) {
     console.log("Preference Center GET_LINK_INFO_EVENT:", e);
 });
-document.addEventListener("formfieldchange", function (e) {
+window.addEventListener("formfieldchange", function (e) {
     console.log("Preference Center formfieldchange:", e);
 });
-document.addEventListener("endreached", function (e) {
+window.addEventListener("endreached", function (e) {
     console.log("Preference Center endreached:", e);
 });
-document.addEventListener("focus", (e) => {
+window.addEventListener("focus", (e) => {
     console.log("Preference Center focus:");
 });
-document.addEventListener("blur", (e) => {
+window.addEventListener("blur", (e) => {
     console.log("Preference Center blur:");
 });
-document.addEventListener("textchange", function (e) {
+window.addEventListener("textchange", function (e) {
     console.log("Preference Center textchange:", e);
 });
-document.addEventListener("invalid", function (e) {
+window.addEventListener("invalid", function (e) {
     console.log("Preference Center invalid:", e);
 });
-document.addEventListener("open", (e) => {
+window.addEventListener("open", (e) => {
     console.log("Preference Center open:");
 });
-document.addEventListener("formfieldchange", function (e) {
-    console.log("Preference Center formfieldchange:");
-});
-document.addEventListener("emailTextInput", function (e) {
+window.addEventListener("emailTextInput", function (e) {
     console.log("Preference Center emailTextInput:");
 });
-document.addEventListener("TextInput", function (e) {
+window.addEventListener("TextInput", function (e) {
     console.log("Preference Center textinput:", e);
 });
-document.addEventListener("input", function (e) {
+window.addEventListener("input", function (e) {
     console.log("Preference Center textinput:", e);
 });
-document.addEventListener("click", function (e) {
+window.addEventListener("click", function (e) {
     console.log("Preference Center click:", e);
 });
 document.addEventListener("clickEvent", function (e) {
