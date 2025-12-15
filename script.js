@@ -9,6 +9,7 @@ window.addEventListener("click", function (e) {
     if(realButton && realButton.innerHTML == 'Unsubscribe'){
         console.log("Unsubscribe");
         window.location.replace('https://go.algolia.com/unsubscribeconfirmation.html');
+        window.location.reload();
         //window.open('https://go.algolia.com/unsubscribeconfirmation.html', '_blank');
     }
 });
