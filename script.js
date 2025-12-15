@@ -1,6 +1,6 @@
 console.log('Hello World!');
 document.addEventListener("change", function (e) {
-    console.log("Preference Center updated:", e.target.localName);
+    console.log("Preference Center updated:", e);
     
 });
 let qwr = document.addEventListener("commit");
@@ -50,8 +50,9 @@ window.addEventListener("textinput", function (e) {
 window.addEventListener("input", function (e) {
     console.log("Preference Center textinput:", e);
 });
-window.addEventListener("click", function (e) {
+document.addEventListener("click", function (e) {
     console.log("Preference Center click:", e);
+    console.log("Preference Center clicked:", e.target.localName);
 });
 document.addEventListener("clickEvent", function (e) {
     console.log("Preference Center clickEvent:", e);
