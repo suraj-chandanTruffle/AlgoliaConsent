@@ -8,7 +8,8 @@ window.addEventListener("click", function (e) {
     const realButton = event.composedPath().find(el => el.tagName === 'BUTTON');
     if(realButton && realButton.innerHTML == 'Unsubscribe'){
         console.log("Unsubscribe");
-        window.open('https://go.algolia.com/unsubscribeconfirmation.html', '_blank');
+        window.location.replace('https://go.algolia.com/unsubscribeconfirmation.html');
+        //window.open('https://go.algolia.com/unsubscribeconfirmation.html', '_blank');
     }
 });
 /*document.addEventListener("commit", () => {
