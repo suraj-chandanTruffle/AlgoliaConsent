@@ -3,7 +3,12 @@ document.addEventListener("change", function (e) {
     console.log("Preference Center updated:", e);
     
 });
-document.addEventListener("commit", () => {
+window.addEventListener("click", function (e) {
+    console.log("Preference Center clicked:", event.composedPath());
+    const realButton = event.composedPath().find(el => el.tagName === 'BUTTON');
+    console.log(realButton);
+});
+/*document.addEventListener("commit", () => {
     console.log("Preference Center commited:");
 });
 window.addEventListener("commit", () => {
@@ -48,14 +53,8 @@ window.addEventListener("textinput", function (e) {
 window.addEventListener("input", function (e) {
     console.log("Preference Center textinput:", e);
 });
-window.addEventListener("click", function (e) {
-    console.log("Preference Center click:", e);
-    console.log("Preference Center clicked:", e.target);
-    console.log("Preference Center clicked:", e.currentTarget);
-    const realButton = event.composedPath().find(el => el.tagName === 'BUTTON');
-
-    console.log(realButton);
-});
 window.addEventListener("clickEvent", function (e) {
     console.log("Preference Center clickEvent:", e);
-});
+});*/
+
+
