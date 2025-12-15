@@ -11,5 +11,9 @@ window.addEventListener("click", function (e) {
         if(realButton && realButton.innerHTML == 'Unsubscribe'){
             window.location.href = 'https://go.algolia.com/unsubscribeconfirmation.html';
         }
+    }else{
+        this.dispatchEvent(new CustomEvent('invalid', {
+          cancellable: true
+        }));
     }
 });
