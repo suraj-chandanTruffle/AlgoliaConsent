@@ -9,7 +9,8 @@ window.addEventListener("click", function (e) {
     /*if(realButton && realButton.include('Unsubscribe')){
         console.log('Completedddd...................');
     }*/
-    console.log(realButton);
+    
+    console.log(String(realButton));
 });
 /*document.addEventListener("commit", () => {
     console.log("Preference Center commited:");
