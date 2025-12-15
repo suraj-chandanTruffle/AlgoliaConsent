@@ -30,13 +30,17 @@ document.addEventListener("textchange", function (e) {
     console.log("Preference Center textchange:", e);
 });
 document.addEventListener("invalid", function (e) {
-    console.log("Preference Center endreached:", e);
+    console.log("Preference Center invalid:", e);
 });
 document.addEventListener("open", function () {
-    console.log("Preference Center endreached:");
+    console.log("Preference Center open:");
 });
 document.addEventListener("updatecolor", function (e) {
-    console.log("Preference Center endreached:");
-});document.addEventListener("updateselectedcolor", function (e) {
-    console.log("Preference Center endreached:");
+    console.log("Preference Center updatecolor:");
+});
+document.addEventListener("updateselectedcolor", function (e) {
+    console.log("Preference Center updateselectedcolor:");
+});
+document.addEventListener("textinput", function (e) {
+    console.log("Preference Center textinput:", e);
 });
