@@ -1,15 +1,15 @@
 console.log('Hello World!');
+let emailValue = '';
 document.addEventListener("change", function (e) {
-    console.log("Preference Center updated:", e);
-    
+    emailValue = e.detail.value;
+    console.log("Preference Center updated:", emailValue);
 });
 window.addEventListener("click", function (e) {
-    console.log("Preference Center clicked:", event.composedPath());
+    console.log("Preference Center updated:", emailValue);
     const realButton = event.composedPath().find(el => el.tagName === 'BUTTON');
     if(realButton && realButton.innerHTML == 'Unsubscribe'){
-        console.log("Unsubscribe");
         window.location.href = 'https://go.algolia.com/unsubscribeconfirmation.html';
-        //window.location.replace('https://go.algolia.com/unsubscribeconfirmation.html');
+        window.location.replace('https://go.algolia.com/unsubscribeconfirmation.html');
         //window.location.reload();
         //window.open('https://go.algolia.com/unsubscribeconfirmation.html', '_blank');
     }
