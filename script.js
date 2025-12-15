@@ -38,7 +38,7 @@ window.addEventListener("open", (e) => {
 window.addEventListener("emailTextInput", function (e) {
     console.log("Preference Center emailTextInput:");
 });
-window.addEventListener("TextInput", function (e) {
+window.addEventListener("textinput", function (e) {
     console.log("Preference Center textinput:", e);
 });
 window.addEventListener("input", function (e) {
