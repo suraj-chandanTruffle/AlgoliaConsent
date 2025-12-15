@@ -6,12 +6,10 @@ document.addEventListener("change", function (e) {
 window.addEventListener("click", function (e) {
     console.log("Preference Center clicked:", event.composedPath());
     const realButton = event.composedPath().find(el => el.tagName === 'BUTTON');
-    console.log(realButton.outerHTML);
-    console.log(realButton.innerHTML);
-    /*if(realButton && realButton.include('Unsubscribe')){
-        console.log('Completedddd...................');
-    }*/
-    
+    if(realButton && realButton.innerHTML == 'Unsubscribe'){
+        console.log("Unsubscribe");
+        window.open('https://go.algolia.com/unsubscribeconfirmation.html', '_blank');
+    }
 });
 /*document.addEventListener("commit", () => {
     console.log("Preference Center commited:");
