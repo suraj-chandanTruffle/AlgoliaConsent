@@ -44,3 +44,9 @@ document.addEventListener("updateselectedcolor", function (e) {
 document.addEventListener("textinput", function (e) {
     console.log("Preference Center textinput:", e);
 });
+document.addEventListener("click", function (e) {
+    console.log("Preference Center click:", e);
+});
+document.addEventListener("clickEvent", function (e) {
+    console.log("Preference Center clickEvent:", e);
+});
