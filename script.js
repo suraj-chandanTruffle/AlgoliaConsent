@@ -50,7 +50,7 @@ window.addEventListener("input", function (e) {
 });
 window.addEventListener("click", function (e) {
     console.log("Preference Center click:", e);
-    console.log("Preference Center clicked:", e.target.localName);
+    console.log("Preference Center clicked:", e.target);
 });
 window.addEventListener("clickEvent", function (e) {
     console.log("Preference Center clickEvent:", e);
