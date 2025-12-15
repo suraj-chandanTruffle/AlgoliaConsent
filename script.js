@@ -10,7 +10,7 @@ window.addEventListener("click", function (e) {
         console.log("Unsubscribe");
         window.location.href = 'https://go.algolia.com/unsubscribeconfirmation.html';
         //window.location.replace('https://go.algolia.com/unsubscribeconfirmation.html');
-        window.location.reload();
+        //window.location.reload();
         //window.open('https://go.algolia.com/unsubscribeconfirmation.html', '_blank');
     }
 });
