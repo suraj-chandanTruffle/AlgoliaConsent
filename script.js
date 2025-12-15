@@ -1,8 +1,14 @@
 console.log('Hello World!');
 document.addEventListener("change", function (e) {
-    console.log("Preference Center updated:", e);
+    console.log("Preference Center updated:", e.target.localName);
+    
 });
-window.addEventListener("commit", (e) => {
+let qwr = document.addEventListener("commit");
+console.log('chgchfufvu',qwr);
+document.addEventListener("commit", () => {
+    console.log("Preference Center commited:");
+});
+window.addEventListener("commit", () => {
     console.log("Preference Center commited:");
 });
 window.addEventListener("select", function (e) {
