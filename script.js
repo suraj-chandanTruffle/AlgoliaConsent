@@ -3,8 +3,6 @@ document.addEventListener("change", function (e) {
     console.log("Preference Center updated:", e);
     
 });
-let qwr = window.addEventListener("commit");
-console.log('chgchfufvu',qwr);
 document.addEventListener("commit", () => {
     console.log("Preference Center commited:");
 });
