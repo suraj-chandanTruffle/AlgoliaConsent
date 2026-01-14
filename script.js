@@ -1,7 +1,8 @@
 let emailValue = '';
-const button = [...document.querySelectorAll('button')].find(btn => btn.innerText.trim() === 'Unsubscribe');
-console.log('adsad',button);
+
 document.addEventListener("change", function (e) {
+    const button = [...document.querySelectorAll('button')].find(btn => btn.innerText.trim() === 'Unsubscribe');
+console.log('adsad',button);
     emailValue = e.detail.value;
 });
 function isValidEmail(email) {
