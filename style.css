@@ -99,4 +99,8 @@
 }
 .pref-center-error-item .slds-card__header-title .slds-text-heading_small {
   margin: 10px auto;
+  color: red;
+}
+.pref-center-error-item .slds-card__body {
+  color: #003dff;
 }
