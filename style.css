@@ -108,10 +108,9 @@
 .slds-input {
   color: #5d6494 !important;
   font-family: Hind, Arial, sans-serif !important;
-  font-size: 16px !important;
-  font-weight: 400 !important;
 }
 .slds-input:focus, .slds-input:active {
   --slds-c-input-color-border: #0060cc !important;
   --slds-c-input-shadow: none !important;
+  border: 2px solid #0060cc !important;
 }
