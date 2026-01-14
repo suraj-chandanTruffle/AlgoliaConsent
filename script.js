@@ -1,4 +1,6 @@
 let emailValue = '';
+const button = [...document.querySelectorAll('button')].find(btn => btn.innerText.trim() === 'Unsubscribe');
+console.log('adsad',button);
 document.addEventListener("change", function (e) {
     emailValue = e.detail.value;
 });
