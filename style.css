@@ -97,3 +97,6 @@
   background-color: #003dff !important;
   color: #ffffff !important;
 }
+.pref-center-error-item .slds-card__header-title .slds-text-heading_small {
+  margin: 10px auto;
+}
