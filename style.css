@@ -68,6 +68,7 @@
 .prefmanager_textinput .slds-form-element__label::after {
   content: "*";
   color: red;
+  padding-left: 5px;
 }
 .prefmanager_textinput .slds-form-element__control{
   display: inline-block !important;
@@ -103,4 +104,14 @@
 }
 .pref-center-error-item .slds-card__body {
   color: #003dff;
+}
+.slds-input {
+  color: #5d6494 !important;
+  font-family: Hind, Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+.slds-input:focus, .slds-input:active {
+  --slds-c-input-color-border: #0060cc !important;
+  --slds-c-input-shadow: none !important;
 }
