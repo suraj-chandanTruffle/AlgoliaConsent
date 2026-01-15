@@ -31,9 +31,9 @@
   text-align: center;
   width: 100%;
   line-height: 1;
-  letter-spacing: 4px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-family: sans-serif !important;
+  font-family: 'sora',Arial,sans-serif !important;
 }
 .slds-card__header .slds-media__body::after {
   content: "Use the form below to opt out of all non-transactional emails.";
