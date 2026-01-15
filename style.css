@@ -43,14 +43,16 @@
   text-align: center;
   line-height: 1.33 !important;
   width: 100%;
-  font-weight: 400 !important;
+  font-weight: 350 !important;
   padding-bottom: 50px !important;
   font-family: 'sora',Arial,sans-serif !important;
+  padding-top: 8px !important;
+  letter-spacing: 0.06px !important;
 }
 .slds-card__body {
   text-align: -webkit-center !important;
   background-color: #f5f5fa;
-  padding: 30px;
+  padding: 36px;
   margin: 0px auto;
   width: 600px;
   height: 200px;
@@ -61,11 +63,12 @@
 }
 .prefmanager_textinput .slds-form-element__label {
   display: inline-block !important;
-  font-weight: 600;
+  font-weight: 600 !important;
   letter-spacing: 1.2px !important;
-  color: #23263B;
+  color: #23263B !important;
   top: -6px;
   position: relative;
+  font-family: Sora, Arial, sans-serif !important;
 }
 .prefmanager_textinput .slds-form-element__label::after {
   content: "*";
@@ -110,6 +113,7 @@
 .slds-input {
   color: #5d6494 !important;
   font-family: Hind, Arial, sans-serif !important;
+  height: 37.2px !important;
 }
 .slds-input:focus, .slds-input:active {
   --slds-c-input-color-border: #0060cc !important;
