@@ -20,6 +20,7 @@
 }
 .slds-card__header {
   margin: 0px !important;
+  padding-top: 0px !important;
 }
 .slds-card__header .slds-media__body::before {
   content: "Unsubscribe";
