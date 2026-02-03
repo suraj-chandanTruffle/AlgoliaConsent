@@ -121,3 +121,7 @@
   --slds-c-input-shadow: none !important;
   border: 2px solid #0060cc !important;
 }
+.prefmanager_button .slds-button:hover {
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #0738d2 !important;
+    transform: translateY(-2px) !important;
+}
