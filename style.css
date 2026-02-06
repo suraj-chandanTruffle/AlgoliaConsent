@@ -161,6 +161,6 @@ article.slds-card {
   .prefmanager_textinput .slds-form-element__label::before {
     content: "*";
     color: #be0201 !important;
-    padding-left: 8px;
+    padding-right: 8px;
   }
 }
