@@ -126,7 +126,7 @@
     transform: translateY(-2px) !important;
 }
 article.slds-card {
-    height: 100vh !important;
+  height: 100vh;
 }
 @media screen and (max-width: 1200px) {
   .slds-card__header .slds-media__body::before {
