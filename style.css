@@ -52,15 +52,20 @@
 
 .slds-card__body {
   background-color: #f5f5fa;
-  padding: 37px;
+  padding: 30px !important;
   margin: 0% 29.6% auto;
   height: 200px;
   box-shadow: 0 5px 15px 0 rgba(37, 44, 97, .15), 0 2px 4px 0 rgba(93, 100, 148, .2);
 }
 .prefmanager_textinput {
-  margin-bottom: 10px;
+  margin: 10px 0px;
 }
-
+.pref-center-field-item[runtime_platform_prefcenter-preferenceCenter_preferenceCenter] {
+  margin: 0px !important;
+}
+.pref-center-field-item[runtime_platform_prefcenter-preferenceCenter_preferenceCenter]:nth-of-type(2) {
+  text-align: center !important;
+}
 .prefmanager_textinput .slds-form-element__label {
   display: inline-block !important;
   font-weight: 550 !important;
