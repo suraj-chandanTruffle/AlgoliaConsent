@@ -145,10 +145,10 @@ article.slds-card {
 @media screen and (max-width: 960px) {
   .prefmanager_textinput .slds-form-element__label {
     display: block !important;
-    left: -136px;
   }
   .prefmanager_textinput .slds-form-element__control{
     display: block !important;
+    width: 100% !important;
   }
   .prefmanager_textinput .slds-form-element__label::after {
     content: "";
