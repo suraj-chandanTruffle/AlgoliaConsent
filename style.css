@@ -58,7 +58,7 @@
   box-shadow: 0 5px 15px 0 rgba(37, 44, 97, .15), 0 2px 4px 0 rgba(93, 100, 148, .2);
 }
 .prefmanager_textinput {
-  margin: 10px 0px;
+  margin: 15px 0px 10px 0px;
 }
 .pref-center-field-item[runtime_platform_prefcenter-preferenceCenter_preferenceCenter] {
   margin: 0px !important;
@@ -82,6 +82,7 @@
 }
 .prefmanager_textinput .slds-form-element__control{
   display: inline-block !important;
+  width: 75.5% !important;
 }
 
 .prefmanager_button .slds-button {
