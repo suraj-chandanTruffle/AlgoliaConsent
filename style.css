@@ -49,18 +49,18 @@
   padding-top: 8px !important;
   letter-spacing: 0.06px !important;
 }
+
 .slds-card__body {
-  text-align: -webkit-center !important;
   background-color: #f5f5fa;
   padding: 37px;
-  margin: 0px auto;
-  width: 600px;
+  margin: 0% 29.6% auto;
   height: 200px;
   box-shadow: 0 5px 15px 0 rgba(37, 44, 97, .15), 0 2px 4px 0 rgba(93, 100, 148, .2);
 }
 .prefmanager_textinput {
   margin-bottom: 10px;
 }
+
 .prefmanager_textinput .slds-form-element__label {
   display: inline-block !important;
   font-weight: 550 !important;
@@ -76,15 +76,10 @@
   color: #be0201 !important;
   padding-left: 8px;
 }
-.prefmanager_textinput .slds-form-element__label::before {
-    content: "*";
-    color: #be0201 !important;
-    padding-left: 8px;
-  }
 .prefmanager_textinput .slds-form-element__control{
   display: inline-block !important;
-  width: 405px !important;
 }
+
 .prefmanager_button .slds-button {
   border: 0px !important;
   cursor: pointer !important;
@@ -143,9 +138,6 @@ article.slds-card {
   }
 }
 @media screen and (max-width: 960px) {
-  .slds-card__body {
-    width: 500px;
-  }
   .prefmanager_textinput .slds-form-element__label {
     display: block !important;
     left: -136px;
