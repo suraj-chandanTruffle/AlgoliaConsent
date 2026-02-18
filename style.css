@@ -54,7 +54,7 @@ article.slds-card {
 }
 .slds-card__body {
   background-color: #f5f5fa;
-  padding: 30px;
+  padding: 30px !important;
   margin: 0px auto;
   width: 600px;
   height: 200px;
