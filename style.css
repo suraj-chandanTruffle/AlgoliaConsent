@@ -53,7 +53,8 @@
 .slds-card__body {
   background-color: #f5f5fa;
   padding: 30px !important;
-  margin: 0% 29.6% auto;
+  width: 600px;
+  margin: 0% auto;
   height: 200px;
   box-shadow: 0 5px 15px 0 rgba(37, 44, 97, .15), 0 2px 4px 0 rgba(93, 100, 148, .2);
 }
