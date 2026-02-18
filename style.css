@@ -171,6 +171,5 @@ article.slds-card {
 @media screen and (max-width: 540px) {
   .slds-card__body {
     width: 100%;
-      margin: 0% 20%;
   }
 }
